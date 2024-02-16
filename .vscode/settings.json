@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar"
+        ],
+        "exclude": [
+            "lib/jaxb-ri-2.3.1/jaxb-ri/samples/pull-parser/lib/sjsxp.jar",
+            "lib/jaxb-ri-2.3.1/jaxb-ri/samples/xml-channel/lib/sjsxp.jar"
+        ]
+    }
+}
